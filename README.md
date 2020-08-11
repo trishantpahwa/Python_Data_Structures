@@ -1,24 +1,22 @@
 # Python_Data_Structures
+This is a tutorial to demonstrate how data structures can be created and later used in Python. I hope it helps.
 
-Welcome!
+You can view the repository at [GitHub](https://github.com/trishantpahwa/Python_Data_Structures), or at YouTube.
 
-This is a tutorial to demonstrate how data structures can be created and later used in Python. I hope this helps.
+The data structures are user-defined data structures. If you want to read about the built-in data structures you can visit the documentation of the particular language you are following. For Python, they can be viewed [here](https://docs.python.org/3/tutorial/datastructures.html).
 
-You can view the repository at [Github](https://github.com/trishantpahwa/Python_Data_Structures), or at Youtube.
-
-These Data Structures are user defined data structures. If you want you can view the built-in data structures of languages on their own documentation. For Python they can be viewed [here](https://docs.python.org/3/tutorial/datastructures.html).
-
-User-Defined Data Structures can be of 2 types:
+User-Defined data structure is of 2 types:
  - Linear
  - Non-Linear
 
- ## Linear
+## Linear Data-Structures
  - Stack { Dynamic }
  - Queue { Dynamic }
- - Linked Lists { Dynamic }
+ - Linked List { Dynamic }
  - Arrays { Static }
-  > Static means their length or size is pre-defined before run-time.
-  > Dynamic means of variable size at run-time.
- ## Non-Linear
+ > Dynamic data structures are the type of data structure whose length is not determined before run-time. They extract memory from heap every time there is a new entry.
+ > Static data structures are the type of data structure whose length is defined before run-time. They extract memory at compile time.
+
+## Non-Linear Data-Structures
  - Trees
  - Graphs
