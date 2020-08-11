@@ -14,7 +14,9 @@ User-Defined data structure is of 2 types:
  - Queue { Dynamic }
  - Linked List { Dynamic }
  - Arrays { Static }
+ 
  > Dynamic data structures are the type of data structure whose length is not determined before run-time. They extract memory from heap every time there is a new entry.
+ 
  > Static data structures are the type of data structure whose length is defined before run-time. They extract memory at compile time.
 
 ## Non-Linear Data-Structures
