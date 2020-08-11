@@ -1,4 +1,5 @@
 # This data structure is a stack using array or a list.
+# The link to the video: https://youtu.be/ZsQ34X2N6l0
 class stack:
 
     stack = []
