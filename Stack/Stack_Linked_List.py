@@ -1,6 +1,6 @@
-# This is to demonstrate Stack using Linked Lists.
+# This is to implement Stack using Linked List
 class node:
-
+    
     data = None
     next = None
 
@@ -23,22 +23,22 @@ class stack:
 
     def add_head(self, node):
         self.head = node
-
+    
     def push(self, node):
         temp = self.head
         while(temp.next != None):
             temp = temp.next
         temp.next = node
     
-    def pop(self, node):
-        temp = self.node
+    def pop(self):
+        temp = self.head
         while(temp.next.next != None):
             temp = temp.next
         temp.next = None
-    
+
     def print_stack(self):
-        temp = self.node
-        temp_list = []
+        temp = self.head
+        temp_list =  []
         while(temp.next != None):
             temp_list.append(temp.data)
             temp = temp.next
@@ -55,19 +55,16 @@ n4 = node()
 n4.add_data(4)
 n5 = node()
 n5.add_data(5)
-n6 = node()
-n6.add_data(6)
 s = stack()
 s.add_head(n1)
 s.push(n2)
-s.push(n3)
-s.push(n4)
+s.push(n3)       
+s.push(n4)       
 s.push(n5)
+s.print_stack()
+s.pop()
+s.print_stack()
+n6 = node()
+n6.add_data(6)
 s.push(n6)
-s.print_stack()
-s.pop()
-s.print_stack()
-s.pop()
-s.print_stack()
-
-
+s.print_stack()  
